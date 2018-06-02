@@ -87,6 +87,9 @@ div.jumbotron{
  #header-nav, navbar navbar-default navbar-static-top {
 	height:170px;
 	}
+h1.text-center {
+	font-size: 4em;  
+      }
 }
 
 /* For tablet view */
@@ -107,7 +110,7 @@ img#shlog {
 	height:120px;
 	}
 h1.text-center {
-	font-size: 4em;  
+	font-size: 3em;  
       }
 }
 
