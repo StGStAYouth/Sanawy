@@ -102,7 +102,11 @@ div.dep{
 	}
  #header-nav, navbar navbar-default navbar-static-top {
 	height:150px;
-	}	
+	}
+img#shlog {
+	width:120px;
+	height:120px;
+	}
 }
 
 @media (min-width:300px) and (max-width:767px) {
@@ -113,7 +117,7 @@ div.navbar-brand h1{
 div.dep{
 	    font-size:16px;
 	}
-#shlog {
+img#shlog {
 	width:90px;
 	height:90px;
 	}
