@@ -106,7 +106,7 @@ div.dep{
 }
 
 @media (min-width:300px) and (max-width:767px) {
-	#chrch{
+div.navbar-brand h1{
 	    font-size:24px;
 	}
 
