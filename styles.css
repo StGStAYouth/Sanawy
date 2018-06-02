@@ -16,14 +16,15 @@ body {
 
 div.navbar-brand h1{
 		margin-top: 10px; 
+	        font-size:28 px;
 		font-weight:bold;
 		color: #130f8e;
 		text-shadow: 1px 1px 1px black;
 	}
 
 div.dep{
-		margin-top: 10px; 
-	    font-size:2em;
+		margin-top: 10px;
+	        font-size:24px;
 		font-weight:bold;
 		color: #130f8e;
 		text-shadow: 1px 1px 1px black;
