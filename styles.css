@@ -31,7 +31,7 @@ div.dep{
 h1.text-center {
 	color:#fcff7c;
 	text-shadow: 1px 1px 1px #303018;
-	font-size: 4em;
+	font-size: 1.5em;
 }
 
 table, tr, td {
@@ -107,6 +107,9 @@ img#shlog {
 	width:120px;
 	height:120px;
 	}
+h1.text-center {
+	font-size: 4em;  
+      }
 }
 
 @media (min-width:300px) and (max-width:767px) {
@@ -121,5 +124,8 @@ img#shlog {
 	width:90px;
 	height:90px;
 	}
+h1.text-center {
+	font-size: 2em;  
+      }
 	
 }
