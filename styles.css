@@ -83,6 +83,9 @@ div.jumbotron{
  div.dep{
 	    font-size:2em;
 	}
+td.done {
+	background-color: red;
+}
 	
  #header-nav, navbar navbar-default navbar-static-top {
 	height:170px;
