@@ -83,8 +83,13 @@ div.jumbotron{
  div.dep{
 	    font-size:2em;
 	}
-td.done {
+td.done, #wk1 td.done:hover,#wk2 td.done:hover,#wk3 td.done:hover,#wk4 td.done:hover {
+
 	background-color: red;
+}
+
+td.done a , td.done a:hover {
+	color: white;
 }
 	
  #header-nav, navbar navbar-default navbar-static-top {
