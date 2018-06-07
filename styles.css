@@ -19,6 +19,7 @@ div.navbar-brand h1{
 		font-weight:bold;
 		color: #130f8e;
 		text-shadow: 1px 1px 1px black;
+		float : left;
 	}
 
 div.dep{
@@ -26,6 +27,7 @@ div.dep{
 		font-weight:bold;
 		color: #130f8e;
 		text-shadow: 1px 1px 1px black;
+		clear : left;
 	}
 
 h1.text-center {
@@ -72,6 +74,14 @@ div.jumbotron{
 	background-color:#050414; 
 }
 
+img#shlog {
+	float : left;
+}
+
+img#shift {
+	width: 100%;
+	margin:auto;
+}
 
  /* For Large devices*/
 @media (min-width:992px) {
@@ -122,20 +132,88 @@ h1.text-center {
       }
 }
 
-@media (min-width:300px) and (max-width:767px) {
+@media (min-width:425px) and (max-width:767px) {
+
 div.navbar-brand h1{
-	    font-size:19px;
+	    font-size:21px;
+	    margin:auto;
 	}
+a.navbar-brand {
+	padding:10px;
+}
+
+a.navbar-brand.navbar-left {
+	padding-right: 5px;
+	padding-left: 3px;
+}
 
 div.dep{
-	    font-size:16px;
+	    font-size:18px;
+	    margin:auto;
 	}
 img#shlog {
-	width:90px;
-	height:90px;
+	width:80px;
+	height:80px;
 	}
 h1.text-center {
-	font-size: 2em;  
+	font-size: 1.5em;  
       }
-	
+nav#header-nav {
+	height:95px;
+ } 
+div.jumbotron {
+	padding-top: 15px;
+  }
+ div.navbar-brand {
+ 	padding-left: 3px;
+ }
+
+ #calendar {
+ 	font-size: 1.6em;
+ }
+
+}
+
+
+@media (min-width:300px) and (max-width:424px) {
+
+div.navbar-brand h1{
+	    font-size:16px;
+	    margin:auto;
+	}
+a.navbar-brand {
+	padding:10px;
+	padding-left: 3px;
+}
+
+div.dep{
+	    font-size:14px;
+	    margin:auto;
+	}
+img#shlog {
+	width:60px;
+	height:60px;
+
+	}
+h1.text-center {
+	font-size: 1em;  
+      }
+nav#header-nav {
+	height:75px;
+ }
+div.jumbotron {
+	padding-top: 5px;
+ }
+div.navbar-brand {
+ 	padding-left: 3px;
+ }
+ a.navbar-brand.navbar-left {
+	padding-right: 5px;
+	padding-left: 3px;
+ }
+
+ #calendar {
+ 	font-size: 1.6em;
+ }
+ 
 }
